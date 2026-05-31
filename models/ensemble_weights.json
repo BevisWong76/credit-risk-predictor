@@ -1,0 +1,12 @@
+{
+    "models_used": [
+        "Random Forest",
+        "XGBoost",
+        "CatBoost"
+    ],
+    "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+    ]
+}
