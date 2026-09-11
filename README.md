@@ -40,7 +40,7 @@ An end-to-end Machine Learning pipeline and interactive Streamlit web applicatio
 
 ### 1. Model Comparison & Metrics
 
-A comparison was conducted across single models and ensemble architectures. **CatBoost** emerged as the top individual model with a Validation AUC of **`0.8362`**, closely followed by the **Ensemble models** (`0.8345`).
+A comparison was conducted across single models and ensemble architectures. **CatBoost** emerged as the top individual model with a Validation AUC of **`0.8362`**, closely followed by the **ensemble models** (`0.8345`).
 
 <p align="center">
   <img src="plots/Evaluation/02_final_models_comparison.png" alt="All Models Comparison" width="85%">
@@ -89,7 +89,7 @@ The top factors driving default risk in the CatBoost model highlight the crucial
 * **Data Processing & Analysis:** Pandas, NumPy
 * **Machine Learning:** Scikit-Learn, XGBoost, CatBoost
 * **Visualization:** Matplotlib, Seaborn
-* **Tuning and optimization:** Optuna, Scipy
+* **Hyperparameter Tuning:** Optuna, Scipy
 * **Model Persistence:** Joblib
 * **Web Framework:** Streamlit
 
@@ -185,7 +185,7 @@ uv venv
 source .venv/bin/activate
 ```
 
- 4. Install dependencies:
+4. Install dependencies:
 ```bash
 uv pip install --upgrade pip
 uv pip install -r requirements.txt
